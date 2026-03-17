@@ -1,0 +1,41 @@
+# === Secrets & Environment ===
+.env
+.env.*
+!.env.example
+*.env
+
+# === Project-specific sensitive files ===
+CLAUDE.md
+claude_desktop_config.json
+config.yml
+canvasToken.txt
+MPC.md
+canvas-mcp/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Systemd unit (contains server paths) ===
+*.service
