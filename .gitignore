@@ -4,6 +4,9 @@
 !.env.example
 *.env
 
+# === Claude Code local settings (contains permission history) ===
+.claude/settings.local.json
+
 # === Project-specific sensitive files ===
 CLAUDE.md
 claude_desktop_config.json
@@ -39,3 +42,8 @@ desktop.ini
 
 # === Systemd unit (contains server paths) ===
 *.service
+
+# === VPS/SSH Access & Secrets Scripts ===
+.vps_access.sh
+*_access.sh
+*.secrets.sh
