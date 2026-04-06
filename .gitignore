@@ -4,8 +4,8 @@
 !.env.example
 *.env
 
-# === Claude Code local settings (contains permission history) ===
-.claude/settings.local.json
+# === Claude Code — ignorar todo el directorio (permisos, contexto, memoria) ===
+.claude/
 
 # === Project-specific sensitive files ===
 CLAUDE.md
@@ -14,6 +14,11 @@ config.yml
 canvasToken.txt
 MPC.md
 canvas-mcp/
+
+# === Scripts no relacionados al servidor (universitarios, temporales) ===
+gen_*.py
+plan_futuro.md
+guia_deploy_vps.md
 
 # === Python ===
 __pycache__/
